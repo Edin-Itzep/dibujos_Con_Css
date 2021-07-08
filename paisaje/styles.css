@@ -1,0 +1,529 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.paisaje{
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+    background: rgb(4,5,13);
+    background: linear-gradient(90deg, rgba(4,5,13,0.9724264705882353) 4%, rgba(13,18,36,1) 100%, rgba(34,37,59,0.6699054621848739) 100%);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.luna{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 1050px;
+    top: 30px;
+}
+
+.luna_interior{
+    position: relative;
+    border-radius: 50%;
+    border: 5px #9F9D1F solid;
+    background-color: #9F9D1F;
+    width: 100px;
+    height: 100px;
+}
+
+.crater{
+
+position: absolute;
+background-color: #B8B62E;
+border-radius: 50%;
+}
+
+.crater.primero{
+
+    width: 10px;
+    height: 10px;
+    left: 30px;
+}
+.crater.segundo{
+
+    width: 15px;
+    height: 15px;
+    top: 15px;
+    left: 50px;
+}
+.crater.tercero{
+
+    width: 10px;
+    height: 10px;
+    top: 40px;
+    left: 30px;
+}
+.crater.cuarto{
+
+    width: 8px;
+    height: 10px;
+    top: 60px;
+    left: 10px;
+}
+.crater.quinto{
+
+    width: 25px;
+    height: 25px;
+    top: 60px;
+    left: 60px;
+}
+
+.estrellas{
+
+    position: relative;
+}
+
+
+.estrellita{
+    position: absolute;
+    background-color: gray;
+    border-radius: 50%;
+    
+}
+
+.estrellita.primera{
+    left: -948px;
+    width: 5px;
+    height: 5px;
+    top: -55px;
+
+}
+.estrellita.segunda{
+    left: 120px;
+    width: 4px;
+    height: 5px;
+
+}
+.estrellita.tercera{
+    left: -750px;
+    top: 40px;
+    width: 4px;
+    height: 5px;
+
+}
+.estrellita.cuarta{
+    left: -550px;
+    top: 20px;
+    width: 4px;
+    height: 5px;
+
+}
+.estrellita.quinta{
+    left: -900px;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.sexta{
+    left: -400px;
+    top: 20px;
+    width: 4px;
+    height: 5px;
+
+}
+.estrellita.septima{
+    left: -300px;
+    top: 90px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.octava{
+    left: -800px;
+    top: 8px;
+    width: 4px;
+    height: 5px;
+
+}
+.estrellita.novena{
+    left: -600px;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.decima{
+    left: -200px;
+    top: 3px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.d1{
+    left: -100px;
+    top: 8px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.d2{
+    left: -50px;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.d3{
+    left: -70px;
+    top: -30px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.d4{
+    left: -30px;
+    top: -80px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.d5{
+    left: 170px;
+    top: 3px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.d6{
+    left: 200px;
+    top: 9px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.d7{
+    left: -700px;
+    top: -20px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.d8{
+    left: -408px;
+    top: -50px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.d9{
+    left: -300px;
+    top: 30px;
+    width: 5px;
+    height: 5px;
+
+}
+.estrellita.d10{
+    left: -1000px;
+    top: 50px;
+    width: 5px;
+    height: 5px;
+
+}
+
+
+
+.faro{
+
+    position: relative;
+
+}
+
+.faro_interior{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 30% 30% 0 0;
+    top: -88px;
+    left: 85px;
+    background-color: #EEEC89;
+    
+}
+
+.faro_interior::before{
+    content: '';
+    width: 120px;
+    height: 30px;
+    background-color: #87221F;
+    position: absolute;
+    border-radius: 45px 45px 0 0;
+     
+}
+
+.ventanas{
+
+    position: relative;
+}
+
+.ventana{
+    position: absolute;
+    width: 10px;
+    height: 8px;
+    background-color: black;
+}
+
+
+.ventana.p{
+    left: 20px;
+    top: 40px;
+    
+}
+.ventana.s{
+    left: 40px;
+    top: 40px;
+}
+.ventana.t{
+    left: 60px;
+    top: 40px;
+}
+.ventana.c{
+    left: 80px;
+    top: 40px;
+}
+
+.ventana.p2{
+    left: 20px;
+    top: 80px;
+    
+}
+.ventana.s2{
+    left: 40px;
+    top: 80px;
+}
+.ventana.t2{
+    left: 60px;
+    top: 80px;
+}
+.ventana.c2{
+    left: 80px;
+    top: 80px;
+}
+
+
+.mira{
+    position: absolute;
+    background-color: #EEEC89;
+    width: 20px;
+    height: 50px;
+    border: solid 3px black;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 117px;
+    top: -41px;
+}
+
+.mira::before{
+
+    content: '';
+    width: 20px;
+    height: 10px;
+    background-color: #87221F;
+    position: absolute;
+}
+
+.montanas{
+
+    position: relative;
+    display: inline-flex
+    
+}
+
+.montana{
+    width: 200px;
+    height: 300px;
+    border: transparent solid 5px;
+    border-bottom: transparent;
+    position: absolute;
+    border-right: transparent;
+    background-color: #0A150C;
+}
+
+.montana.primero{
+    
+    top: 240px;
+    left: -53;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+
+}
+.montana.segundo{
+    
+    top: 240px;
+    left: 251px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.montana.tercero{
+    top: 240px;
+    left: 493px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.montana.cuarto{
+    top: 240px;
+    left: 782px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.montana.quinto{
+    top: 240px;
+    left: 1060px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}   
+
+.montanasRedondas{
+
+    position: relative;
+}
+
+.redonda{
+position: absolute;
+width: 300px;
+height: 225px;
+border-radius: 50% 50% 0 0;
+border: 5px solid transparent;
+background-color: #0C3D18;
+z-index: 20;
+}
+
+.redonda.primero{
+    
+    top: 305px;
+    left: 0px;
+}
+.redonda.segundo{
+    top: 305px;
+    left: 270px;
+}
+.redonda.tercero{
+    top: 320px;
+    left: 550px;
+  
+}
+.redonda.cuarto{
+    top: 305px;
+    right:  0;
+}
+.redonda.quinto{
+    top: 305px;
+    right: 232px;
+}
+
+.montanasPunteagudas{
+    
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 300px;
+    background-color: #0D1F54;
+    top: 350px;
+
+}
+
+.punta{
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    border: transparent 5px solid;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #0D1F54;
+}
+
+
+.punta.primero{
+    bottom: 47px;
+    right: -36px;
+    z-index: 30;
+}
+.punta.segundo{
+    bottom: 45px;
+    left: -33px;
+    z-index: 30;
+    -moz-transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+}
+.punta.tercero{
+    bottom: 70px;
+    left: 187px;
+    z-index: 30;
+}
+.punta.cuarto{
+    bottom: 14px;
+    left: 347px;
+    z-index: 30;
+}
+.punta.quinto{
+    bottom: 50px;
+    left: 450px;
+    z-index: 30;
+}
+.punta.sexto{
+    bottom: 58px;
+    left: 729px;
+    z-index: 30;
+}
+
+.punta.septimo{
+    bottom: 15px;
+    left: 600px;
+    z-index: 30;
+}
+
+.punta.octavo{
+    bottom: 15px;
+    left: 890px;
+    z-index: 30;
+}
+
+.punta.noveno{
+    bottom: 55px;
+    left: 1050px;
+    z-index: 30;
+}
+.punta.decimo{
+    bottom: 15px;
+    left: 1150px;
+    z-index: 30;
+}
+
+
+
+
+
+
